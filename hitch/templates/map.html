@@ -89,6 +89,7 @@ window.__WEEKDAYS__ = {{ client_weekdays_json()|safe }};
 <script src="{{ asset_url('/static/map.js') }}"></script>
 <script src="{{ asset_url('/static/routing.js') }}"></script>
 <script src="{{ asset_url('/static/ride_score.js') }}"></script>
+<script src="{{ asset_url('/static/roulette.js') }}"></script>
 <script src="{{ asset_url('/static/ride_submit.js') }}"></script>
 <script src="{{ asset_url('/static/pending_rides.js') }}"></script>
 <script src="{{ asset_url('/static/share_card.js') }}"></script>
@@ -746,6 +747,11 @@ window.__WEEKDAYS__ = {{ client_weekdays_json()|safe }};
     </a>
 </div>
 {% endif %}
+
+<!-- Hitch Roulette: picks a random well-rated spot (static/roulette.js). Sits left of the
+     account button, so it never collides with the share / Play Store stack below it. -->
+<button type="button" class="roulette-btn" id="roulette-btn"
+        title="{{ t('Hitch Roulette: a random spot') }}" aria-label="{{ t('Hitch Roulette: a random spot') }}">🎲</button>
 
 <!-- Floating "share this map view" button. No data-share-url, so the shared
      handler (base.html) copies the current URL — including the #map=zoom/lat/lon

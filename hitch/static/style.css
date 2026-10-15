@@ -4592,3 +4592,30 @@ a.acct-ride__warn:hover { color: #b98900; }
   font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
   box-shadow: 0 2px 8px rgba(0,0,0,.3);
 }
+
+/* Hitch Roulette: dice button left of the account button, result card above the bottom bar. */
+.roulette-btn {
+  position: fixed; top: 48px; right: 64px; z-index: 1001; width: 44px; height: 44px;
+  border: none; border-radius: 50%; background: white; font-size: 22px; cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+}
+.roulette-btn:hover { box-shadow: 0 2px 10px rgba(0,0,0,.4); }
+.roulette-card {
+  position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%); z-index: 1100;
+  width: min(360px, calc(100vw - 24px)); padding: 16px; border-radius: 14px;
+  background: white; box-shadow: 0 4px 20px rgba(0,0,0,.35); text-align: center;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.roulette-spinner { font-size: 40px; animation: roulette-spin .6s linear infinite; }
+@keyframes roulette-spin { to { transform: rotate(360deg); } }
+.roulette-name { font-weight: 700; font-size: 17px; }
+.roulette-stats { color: #555; font-size: 14px; }
+.roulette-comment { font-size: 13px; font-style: italic; color: #444; }
+.roulette-go {
+  padding: 10px 14px; border: 0; border-radius: 999px; background: #188038; color: #fff;
+  font: inherit; font-weight: 600; cursor: pointer;
+}
+.roulette-again, .roulette-close {
+  border: 0; background: none; color: #555; cursor: pointer; font: inherit; text-decoration: underline;
+}
+.roulette-close { position: absolute; top: 4px; right: 10px; font-size: 22px; text-decoration: none; }

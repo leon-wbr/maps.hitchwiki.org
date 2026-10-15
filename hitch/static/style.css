@@ -4601,7 +4601,7 @@ a.acct-ride__warn:hover { color: #b98900; }
 }
 .roulette-btn:hover { box-shadow: 0 2px 10px rgba(0,0,0,.4); }
 .roulette-card {
-  position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%); z-index: 1100;
+  position: fixed; left: 50%; bottom: 140px; transform: translateX(-50%); z-index: 1500;
   width: min(360px, calc(100vw - 24px)); padding: 16px; border-radius: 14px;
   background: white; box-shadow: 0 4px 20px rgba(0,0,0,.35); text-align: center;
   display: flex; flex-direction: column; gap: 8px;

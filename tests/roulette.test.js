@@ -48,3 +48,22 @@ test("toCalendarFile escapes ICS text", () => {
   const ics = Roulette.toCalendarFile(spot(1, 2, 4, 3), "A, B; C", new Date(2026, 9, 17));
   assert.ok(ics.includes("SUMMARY:Hitch Roulette: A\\, B\\; C"));
 });
+
+test("distanceKm is the great-circle distance", () => {
+  const berlinToPrague = Roulette.distanceKm({ lat: 52.52, lon: 13.405 }, { lat: 50.075, lon: 14.437 });
+  assert.ok(Math.abs(berlinToPrague - 280) < 5);
+  assert.strictEqual(Roulette.distanceKm({ lat: 1, lon: 2 }, { lat: 1, lon: 2 }), 0);
+});
+
+test("pickSpot near an origin stays within the radius", () => {
+  const berlin = { lat: 52.52, lon: 13.405 };
+  const spots = [spot(52.4, 13.3, 5, 5), spot(50.0, 14.5, 5, 5), spot(48.1, 11.5, 5, 5)];
+  assert.strictEqual(Roulette.pickSpot(spots, () => 0, { origin: berlin, radiusKm: 100 }).lat, 52.4);
+  assert.strictEqual(Roulette.pickSpot(spots, () => 0.99, { origin: berlin, radiusKm: 100 }).lat, 52.4);
+});
+
+test("pickSpot near an origin falls back to the closest good spot when none is in range", () => {
+  const berlin = { lat: 52.52, lon: 13.405 };
+  const spots = [spot(48.1, 11.5, 5, 5), spot(50.0, 14.5, 5, 5), spot(10, 10, 1, 1)];
+  assert.strictEqual(Roulette.pickSpot(spots, () => 0.5, { origin: berlin, radiusKm: 10 }).lat, 50.0);
+});

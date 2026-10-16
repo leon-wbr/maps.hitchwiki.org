@@ -1078,5 +1078,8 @@
   "{n} rides logged here, average wait {wait}": "{n} rides logged here, average wait {wait}",
   "Go there this weekend?": "Dieses Wochenende hinfahren?",
   "Spin again": "Nochmal drehen",
-  "Hitch Roulette: a random spot": "Hitch Roulette: ein zufälliger Spot"
+  "Hitch Roulette: a random spot": "Hitch Roulette: ein zufälliger Spot",
+  "Spin near me": "In meiner Nähe würfeln",
+  "Spin anywhere": "Überall würfeln",
+  "Location unavailable": "Standort nicht verfügbar"
 }

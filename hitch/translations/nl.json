@@ -1078,5 +1078,8 @@
   "{n} rides logged here, average wait {wait}": "{n} rides logged here, average wait {wait}",
   "Go there this weekend?": "Dit weekend erheen?",
   "Spin again": "Nog een keer draaien",
-  "Hitch Roulette: a random spot": "Hitch Roulette: een willekeurige plek"
+  "Hitch Roulette: a random spot": "Hitch Roulette: een willekeurige plek",
+  "Spin near me": "Draai in de buurt",
+  "Spin anywhere": "Draai overal",
+  "Location unavailable": "Locatie niet beschikbaar"
 }

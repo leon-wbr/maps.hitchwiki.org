@@ -1078,5 +1078,8 @@
   "{n} rides logged here, average wait {wait}": "{n} rides logged here, average wait {wait}",
   "Go there this weekend?": "Menjünk oda a hétvégén?",
   "Spin again": "Pörgetés újra",
-  "Hitch Roulette: a random spot": "Hitch Roulette: egy véletlen hely"
+  "Hitch Roulette: a random spot": "Hitch Roulette: egy véletlen hely",
+  "Spin near me": "Forgatás a közelemben",
+  "Spin anywhere": "Forgatás bárhol",
+  "Location unavailable": "A helyadat nem érhető el"
 }

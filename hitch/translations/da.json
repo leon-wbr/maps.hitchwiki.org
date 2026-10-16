@@ -1078,5 +1078,8 @@
   "{n} rides logged here, average wait {wait}": "{n} rides logged here, average wait {wait}",
   "Go there this weekend?": "Tage derhen i weekenden?",
   "Spin again": "Spin igen",
-  "Hitch Roulette: a random spot": "Hitch Roulette: et tilfældigt sted"
+  "Hitch Roulette: a random spot": "Hitch Roulette: et tilfældigt sted",
+  "Spin near me": "Find i nærheden",
+  "Spin anywhere": "Find hvor som helst",
+  "Location unavailable": "Placering utilgængelig"
 }

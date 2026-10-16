@@ -1078,5 +1078,8 @@
   "{n} rides logged here, average wait {wait}": "{n} rides logged here, average wait {wait}",
   "Go there this weekend?": "Nuvykti ten šį savaitgalį?",
   "Spin again": "Sukti dar kartą",
-  "Hitch Roulette: a random spot": "Hitch Roulette: atsitiktinė vieta"
+  "Hitch Roulette: a random spot": "Hitch Roulette: atsitiktinė vieta",
+  "Spin near me": "Sukti netoliese",
+  "Spin anywhere": "Sukti bet kur",
+  "Location unavailable": "Vieta nepasiekiama"
 }

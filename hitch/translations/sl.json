@@ -1078,5 +1078,8 @@
   "{n} rides logged here, average wait {wait}": "{n} rides logged here, average wait {wait}",
   "Go there this weekend?": "Se odpraviš tja ta vikend?",
   "Spin again": "Zavrti znova",
-  "Hitch Roulette: a random spot": "Hitch Roulette: naključno mesto"
+  "Hitch Roulette: a random spot": "Hitch Roulette: naključno mesto",
+  "Spin near me": "Vrti v bližini",
+  "Spin anywhere": "Vrti kjer koli",
+  "Location unavailable": "Lokacija ni na voljo"
 }

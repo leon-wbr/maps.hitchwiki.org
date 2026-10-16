@@ -1078,5 +1078,8 @@
   "{n} rides logged here, average wait {wait}": "{n} rides logged here, average wait {wait}",
   "Go there this weekend?": "这个周末去那里吗？",
   "Spin again": "再转一次",
-  "Hitch Roulette: a random spot": "Hitch Roulette：随机地点"
+  "Hitch Roulette: a random spot": "Hitch Roulette：随机地点",
+  "Spin near me": "在附近抽取",
+  "Spin anywhere": "在任意地点抽取",
+  "Location unavailable": "无法获取位置"
 }

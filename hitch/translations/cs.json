@@ -1078,5 +1078,8 @@
   "{n} rides logged here, average wait {wait}": "{n} rides logged here, average wait {wait}",
   "Go there this weekend?": "Zajet tam tento víkend?",
   "Spin again": "Zatočit znovu",
-  "Hitch Roulette: a random spot": "Hitch Roulette: náhodné místo"
+  "Hitch Roulette: a random spot": "Hitch Roulette: náhodné místo",
+  "Spin near me": "Hledat poblíž",
+  "Spin anywhere": "Hledat kdekoli",
+  "Location unavailable": "Poloha není k dispozici"
 }
